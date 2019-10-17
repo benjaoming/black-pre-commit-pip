@@ -1,3 +1,8 @@
-# This is a dummy setup.py that pre-commit will invoke
-import sys
-sys.exit(0)
+#! /usr/bin/env python
+from setuptools import setup, find_packages
+
+setup(
+    name='black-pre-commit-dummy',
+    version="1.0",
+    packages=[],
+)
