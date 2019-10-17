@@ -6,4 +6,4 @@
     language_version: python3
     require_serial: true
     types: [python]
-    additional_dependencies: ['black==19.0b3']
+    additional_dependencies: ['black==19.3b0']
