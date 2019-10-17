@@ -1,0 +1,10 @@
+-   id: black
+    name: black
+    description: 'Black: The uncompromising Python code formatter'
+    entry: black
+        args: ["."]
+    language: python
+    language_version: python3
+    require_serial: true
+    types: [python]
+    additional_dependencies: ['black==19.0b3']
